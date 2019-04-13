@@ -1,10 +1,10 @@
 
 const Alexa = require('ask-sdk');
-const SlotController = require('./SlotController.js').SlotController;
-const Times = require('./SlotController.js').Times;
+const SlotController = require('./Controllers/SlotController.js').SlotController;
+const Times = require('./Controllers/SlotController.js').Times;
 
-const DataControlloer = require('./DataController.js');
-const ReminderController = require('./ReminderController.js');
+const DataControlloer = require('./Controllers/DataController.js');
+const ReminderController = require('./Controllers/ReminderController.js');
 
 
 
